@@ -516,7 +516,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="script.module.api.videomore.ru" version="1.0.0" name="API videomore.ru" provider-name="vl.maksime">
+    <addon id="script.module.api.videomore.ru" version="1.0.1" name="API videomore.ru" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
             <import addon="script.module.requests"/>

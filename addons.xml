@@ -26,7 +26,7 @@
         <source>https://github.com/romanvm/script.module.simpleplugin</source>
       </extension>
     </addon>
-    <addon id="script.module.simpleplugin3" name="SimplePlugin 3" version="3.0.0~beta3" provider-name="Roman V.M.">
+    <addon id="script.module.simpleplugin3" name="SimplePlugin 3" version="3.0.0~beta4" provider-name="Roman V.M.">
       <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.future" />
@@ -43,7 +43,7 @@
         <source>https://github.com/romanvm/script.module.simpleplugin</source>
       </extension>
     </addon>
-    <addon id="script.module.simplemedia" version="1.0.0" name="SimpleMedia" provider-name="vl.maksime">
+    <addon id="script.module.simplemedia" version="1.0.1" name="SimpleMedia" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
             <import addon="script.module.simpleplugin3"/>
@@ -588,6 +588,37 @@
             <news>v1.1.0 (2018-04-22)[CR]- Дополнение переписано с нуля[CR]- Реализовано воспроизведение DRM видео</news>
             <assets>
                 <icon>icon.png</icon>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="plugin.video.tvigle.ru" version="1.0.0" name="Tvigle" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="2.19.0"/>
+            <import addon="script.module.future"/>
+            <import addon="script.module.requests"/>
+            <import addon="script.module.simplemedia" version="1.0.1"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">Tvigle - it's your favorite movies, TV shows, soviet cartoons, modern cartoons online for free.</summary>
+            <summary lang="ru_RU">Tvigle – это любимые фильмы, сериалы, советские мультфильмы, современные мультики, программы, ТВ-шоу онлайн и бесплатно.</summary>
+            <description lang="en_GB">Several million people are already looking Tvigle online and on Smart TV. Install this plugin and watch movies, TV shows, cartoons online in HD quality.[CR]The main advantage of Tvigle - 99% of movies and TV shows free of charge.</description>
+            <description lang="ru_RU">Несколько миллионов пользователей уже смотрят Tvigle на сайте и в приложениях Smart TV. Установите это дополнение и смотрите фильмы, сериалы, мультфильмы online в HD качестве.[CR]Главное преимущество Tvigle – 99% фильмов и сериалов бесплатные.</description>
+            <disclaimer lang="en_GB">Now in your TV</disclaimer>
+            <disclaimer lang="ru_RU">Теперь в твоем телевизоре</disclaimer>
+            <language>ru</language>
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=</forum>
+            <website>http://www.tvigle.ru/</website>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/plugin.video.tvigle.ru</source>
+            <news>v1.0.0 (2018-05-09)[CR]- Публичный релиз</news>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
             </assets>
         </extension>
     </addon>

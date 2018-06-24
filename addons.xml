@@ -75,7 +75,7 @@
         <source>https://github.com/romanvm/script.module.pyxbmct</source>
       </extension>  
     </addon>
-    <addon id="script.module.inputstreamhelper" version="0.3.3.1" name="InputStream Helper" provider-name="emilsvennesson">
+    <addon id="script.module.inputstreamhelper" version="0.3.3.2" name="InputStream Helper" provider-name="emilsvennesson">
       <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.requests" version="2.9.1"/>

@@ -10,7 +10,7 @@
             <platform>all</platform>
         </extension>
     </addon>
-    <addon id="script.module.simpleplugin" name="SimplePlugin" version="2.3.3" provider-name="Roman V.M.">
+    <addon id="script.module.simpleplugin" name="SimplePlugin" version="2.3.4" provider-name="Roman V.M.">
       <requires>
         <import addon="xbmc.python" version="2.19.0"/>
       </requires>
@@ -26,7 +26,7 @@
         <source>https://github.com/romanvm/script.module.simpleplugin</source>
       </extension>
     </addon>
-    <addon id="script.module.simpleplugin3" name="SimplePlugin 3" version="3.0.0~beta4" provider-name="Roman V.M.">
+    <addon id="script.module.simpleplugin3" name="SimplePlugin 3" version="3.0.0~beta5" provider-name="Roman V.M.">
       <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.future" />
@@ -43,7 +43,7 @@
         <source>https://github.com/romanvm/script.module.simpleplugin</source>
       </extension>
     </addon>
-    <addon id="script.module.simplemedia" version="1.0.4" name="SimpleMedia" provider-name="vl.maksime">
+    <addon id="script.module.simplemedia" version="1.0.5" name="SimpleMedia" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
             <import addon="script.module.simpleplugin3"/>
@@ -132,33 +132,6 @@
             </assets>
         </extension>
     </addon>
-    <addon id="webinterface.chorus2" version="2.4.4" name="Kodi web interface - Chorus2" provider-name="jez500, Team Kodi">
-        <requires>
-            <import addon="xbmc.json" version="6.0.0" />
-        </requires>
-        <extension point="xbmc.webinterface"/>
-        <extension point="xbmc.addon.metadata">
-            <summary lang="en">Default web interface for KODI 17</summary>
-            <description lang="en">Browse and interact with your Music, Movies, TV Shows and more via a web browser. Stream music and videos to your browser. Edit and manage your Kodi media library.</description>
-            <platform>all</platform>
-            <language>en</language>
-            <source>https://github.com/xbmc/chorus2</source>
-            <forum>http://forum.xbmc.org/showthread.php?tid=183451</forum>
-            <assets>
-                <icon>icon.png</icon>
-                <fanart>fanart.jpg</fanart>
-                <screenshot>media\now-playing.jpg</screenshot>
-                <screenshot>media\search.jpg</screenshot>
-                <screenshot>media\artists.jpg</screenshot>
-                <screenshot>media\artist.jpg</screenshot>
-                <screenshot>media\tv.jpg</screenshot>
-                <screenshot>media\movie.jpg</screenshot>
-                <screenshot>media\settings.jpg</screenshot>
-                <screenshot>media\addons.jpg</screenshot>
-                <screenshot>media\edit-media.jpg</screenshot>
-            </assets>
-        </extension>
-    </addon>
     <addon id="plugin.video.video.az" version="0.1.6" name="Video.AZ" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
@@ -192,7 +165,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.united.search" version="0.2.2" name="United Search" provider-name="vl.maksime">
+    <addon id="plugin.video.united.search" version="0.2.3" name="United Search" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
             <import addon="script.module.simpleplugin" version="2.2.0"/>
@@ -217,7 +190,7 @@
             <forum>http://xbmc.ru/forum/showthread.php?t=14278</forum>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.united.search</source>
-            <news>v0.2.2 (2017-07-02)[CR]- Доработан механизм обучения и поиска в дополнениях без встроенной поддержки</news>
+            <news>v0.2.3 (2018-10-07)[CR]- Пункты контекстного меню вынесены в отдельные дополнения[CR][CR]v0.2.2 (2017-07-02)[CR]- Доработан механизм обучения и поиска в дополнениях без встроенной поддержки</news>
             <assets>
                 <icon>icon.png</icon>
                 <screenshot>media\screenshot-01.jpg</screenshot>
@@ -228,7 +201,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="context.united.search.learn" version="0.1.1" name="United Search Learn" provider-name="vl.maksime">
+    <addon id="context.united.search.learn" version="0.1.2" name="United Search Context: Learn" provider-name="vl.maksime">
         <requires>
             <import addon="plugin.video.united.search" version="0.2.2"/>
         </requires>
@@ -236,8 +209,8 @@
         <extension point="xbmc.addon.metadata">
             <summary lang="en"></summary>
             <summary lang="ru"></summary>
-            <description lang="en">Additional item of the context menu. Allows you to add search support for United Search add-on[CR]Intended for KODI 15.x</description>
-            <description lang="ru">Дополнительный пункт контекстного меню. Позволяет добавит поддержку поиска из дополнения United Search[CR]Предназначен для KODI 15.x</description>
+            <description lang="en"></description>
+            <description lang="ru"></description>
             <disclaimer lang="en"></disclaimer>
             <disclaimer lang="ru"></disclaimer>
             <language></language>
@@ -246,7 +219,31 @@
             <forum>http://xbmc.ru/forum/showthread.php?t=14278</forum>
             <email>vl.maksime@gmail.com</email>
             <source></source>
-            <news>v0.1.1 (2017-07-02)[CR]- Публичный релиз</news>
+            <news></news>
+            <assets>
+                <icon>icon.png</icon>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="context.united.search.search" version="0.1.1" name="United Search Context: Search" provider-name="vl.maksime">
+        <requires>
+            <import addon="plugin.video.united.search" version="0.2.2"/>
+        </requires>
+        <extension point="kodi.context.item"/>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en"></summary>
+            <summary lang="ru"></summary>
+            <description lang="en"></description>
+            <description lang="ru"></description>
+            <disclaimer lang="en"></disclaimer>
+            <disclaimer lang="ru"></disclaimer>
+            <language></language>
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=14278</forum>
+            <email>vl.maksime@gmail.com</email>
+            <source></source>
+            <news></news>
             <assets>
                 <icon>icon.png</icon>
             </assets>

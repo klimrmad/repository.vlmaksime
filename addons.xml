@@ -165,7 +165,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.united.search" version="0.2.3" name="United Search" provider-name="vl.maksime">
+    <addon id="plugin.video.united.search" version="0.2.4" name="United Search" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
             <import addon="script.module.simpleplugin" version="2.2.0"/>
@@ -190,7 +190,7 @@
             <forum>http://xbmc.ru/forum/showthread.php?t=14278</forum>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.united.search</source>
-            <news>v0.2.3 (2018-10-07)[CR]- Пункты контекстного меню вынесены в отдельные дополнения[CR][CR]v0.2.2 (2017-07-02)[CR]- Доработан механизм обучения и поиска в дополнениях без встроенной поддержки</news>
+            <news>v0.2.4 (2018-10-21)[CR]- Исправлены выявленные ошибки[CR][CR]v0.2.3 (2018-10-07)[CR]- Пункты контекстного меню вынесены в отдельные дополнения[CR][CR]v0.2.2 (2017-07-02)[CR]- Доработан механизм обучения и поиска в дополнениях без встроенной поддержки</news>
             <assets>
                 <icon>icon.png</icon>
                 <screenshot>media\screenshot-01.jpg</screenshot>
@@ -619,7 +619,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.ivi.client" version="1.1.0" name="IVI" provider-name="vl.maksime">
+    <addon id="plugin.video.ivi.client" version="1.1.1" name="IVI" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
             <import addon="script.module.requests"/>
@@ -643,7 +643,7 @@
             <website>https://www.ivi.ru/</website>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.ivi.client</source>
-            <news>v1.1.0 (2018-08-27)[CR]- Добавлена поддержка Widevine CDM[CR]- Добавлена авторизация пользователя[CR]- Добавлена поддержка дополнения "Add to Lib"[CR][CR]v1.0.0 (2018-06-09)[CR]- Публичный релиз</news>
+            <news>v1.1.1 (2018-10-21)[CR]- Исправлены выявленные ошибки[CR][CR]v1.1.0 (2018-08-27)[CR]- Добавлена поддержка Widevine CDM[CR]- Добавлена авторизация пользователя[CR]- Добавлена поддержка дополнения "Add to Lib"[CR][CR]v1.0.0 (2018-06-09)[CR]- Публичный релиз</news>
             <assets>
                 <icon>icon.png</icon>
             </assets>

@@ -484,11 +484,11 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.ntv.ru" version="0.1.2~beta" name="НТВ" provider-name="vl.maksime">
+    <addon id="plugin.video.ntv.ru" version="0.2.1" name="НТВ" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
             <import addon="script.module.requests"/>
-            <import addon="script.module.simpleplugin3"/>
+            <import addon="script.module.simplemedia"/>
         </requires>
         <extension point="xbmc.python.pluginsource">
             <provides>video</provides>
@@ -507,7 +507,7 @@
             <website>http://www.ntv.ru/</website>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.ntv.ru</source>
-            <news>v0.1.1 (2018-02-25)[CR]- Публичный релиз</news>
+            <news>v0.2.1 (2018-02-25)[CR]- Учтены изменения в API ресурса[CR][CR]v0.1.1 (2018-02-25)[CR]- Публичный релиз</news>
             <assets>
                 <icon>icon.png</icon>
             </assets>

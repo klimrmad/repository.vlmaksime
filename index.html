@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="page-content">
+  <div class="mdl-grid">
+    {% for addon in site.posts %}
+    {% capture icon_url %}/releases/{{ addon._id }}/icon.png{% endcapture %}
+    <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone" style="height:192px; width:192px; background: url('{{ icon_url | absolute_url }}') center/cover;">
+      <div class="mdl-card--expand" style="height: 52px; padding: 16px; background: ('');"></div>
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="{{ addon.url | prepend: site.baseurl }}">{{ addon.title }}</a>
+    </div>
+    {% endfor %}
+  </div>
+</div>

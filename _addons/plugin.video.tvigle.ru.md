@@ -1,6 +1,6 @@
 ---
-layout: post
-date:   2018-05-09 00:00:00
+layout: addon
+date: 2018-05-09
 categories: video
 _id: plugin.video.tvigle.ru
 title: Tvigle
@@ -14,7 +14,6 @@ disclaimer: Теперь в твоем телевизоре
 forum: http://xbmc.ru/forum/showthread.php?t=15151
 website: http://www.tvigle.ru/
 source: https://github.com/vlmaksime/plugin.video.tvigle.ru
-permalink: /video/plugin.video.tvigle.ru/
 ---
 v1.0.0 (2018-05-09)
 - Публичный релиз

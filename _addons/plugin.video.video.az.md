@@ -1,6 +1,6 @@
 ---
-layout: post
-date:   2017-07-20 00:00:00
+layout: addon
+date: 2017-07-20
 categories: video
 _id: plugin.video.video.az
 title: Video.AZ
@@ -14,7 +14,6 @@ disclaimer: Video.AZ - Лучший Азербайджанский Видео С
 forum: http://xbmc.ru/forum/showthread.php?t=14265
 website: http://video.az/
 source: https://github.com/vlmaksime/plugin.video.video.az
-permalink: /video/plugin.video.video.az/
 ---
 v0.1.6 (2017-07-20)
 - Переделан алгоритм удаления html тегов из текста

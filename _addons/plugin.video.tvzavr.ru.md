@@ -1,6 +1,6 @@
 ---
-layout: post
-date:   2017-03-12 00:00:00
+layout: addon
+date: 2017-03-12
 categories: video
 _id: plugin.video.tvzavr.ru
 title: TVzavr.ru
@@ -12,7 +12,6 @@ disclaimer: Онлайн-кинотеатр TVzavr.ru
 forum: http://xbmc.ru/forum/showthread.php?t=14182
 website: http://www.tvzavr.ru/
 source: https://github.com/vlmaksime/plugin.video.tvzavr.ru
-permalink: /video/plugin.video.tvzavr.ru/
 ---
 v0.1.7 (2017-03-12)
 - Добавлена поддержка дополнения 'United Search'

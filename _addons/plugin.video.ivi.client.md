@@ -1,6 +1,6 @@
 ---
-layout: post
-date:   2018-11-04 00:00:00
+layout: addon
+date: 2018-11-04
 categories: video
 _id: plugin.video.ivi.client
 title: ivi
@@ -15,8 +15,6 @@ disclaimer: Самая большая в России легальная фил�
 forum: http://xbmc.ru/forum/showthread.php?t=15328
 website: https://www.gismeteo.ru/ 
 source: https://github.com/vlmaksime/plugin.video.ivi.client
-
-permalink: /video/plugin.video.ivi.client/
 ---
 v1.1.2 (2018-11-04)
 - Для контента с Widevine CDM ограничен доступ для KODI 18+ на всех платформах

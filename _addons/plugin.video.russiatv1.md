@@ -1,6 +1,6 @@
 ---
-layout: post
-date:   2018-04-22 00:00:00
+layout: addon
+date: 2018-04-22
 categories: video
 _id: plugin.video.russiatv1
 title: Россия 1
@@ -14,7 +14,6 @@ disclaimer: Заходите в дополнение "Россия 1", у нас
 forum: http://xbmc.ru/forum/showthread.php?t=14265
 website: https://russia.tv/
 source: https://github.com/vlmaksime/plugin.video.russiatv1
-permalink: /video/plugin.video.russiatv1/
 ---
 v0.2.1 (2018-12-20)
 - Учтены изменения в API ресурса

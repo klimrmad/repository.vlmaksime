@@ -1,6 +1,6 @@
 ---
-layout: post
-date:   2018-04-22 00:00:00
+layout: addon
+date: 2018-04-22
 categories: video
 _id: plugin.video.domashniy.ru
 title: Dомашний
@@ -10,7 +10,6 @@ summary: Просмотр сереалов, шоу и передач, опубл
 forum: http://xbmc.ru/forum/showthread.php?t=15080
 website: https://domashniy.ru
 source: https://github.com/vlmaksime/plugin.video.domashniy.ru
-permalink: /video/plugin.video.domashniy.ru/
 ---
 v1.1.0 (2018-04-22)
 - Реализован запуск DRM видео

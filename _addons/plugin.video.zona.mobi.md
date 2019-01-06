@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: addon
 date:   2018-02-18 00:00:00
 categories: video
 _id: plugin.video.zona.mobi
@@ -12,7 +12,6 @@ disclaimer: Дополнение для просмотра фильмов и с�
 forum: http://xbmc.ru/forum/showthread.php?t=14529
 website: https://zona.mobi/
 source: https://github.com/vlmaksime/plugin.video.zona.mobi
-permalink: /video/plugin.video.zona.mobi/
 ---
 v0.1.8 (2018-02-18)
 - Обновлен адрес сайта

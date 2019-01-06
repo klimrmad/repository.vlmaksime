@@ -1,6 +1,6 @@
 ---
-layout: post
-date:   2017-04-07 00:00:00
+layout: addon
+date: 2018-04-07
 categories: weather
 _id: weather.gismeteo
 title: Gismeteo
@@ -12,15 +12,14 @@ disclaimer: Прогноз погоды подготовлен НПЦ "Мэп М
 forum: http://xbmc.ru/forum/showthread.php?t=14692
 website: https://www.gismeteo.ru/ 
 source: https://github.com/vlmaksime/weather.gismeteo
-permalink: /weather/weather.gismeteo/
 ---
-v0.3.3 (2017-04-07)
+v0.3.3 (2018-04-07)
 - Исправлена ошибка разбора данных XML
 
-v0.3.2 (2017-02-18)
+v0.3.2 (2018-02-18)
 - Исправлена ошибка совместимости с Android и LibreELEC
 
-v0.3.1 (2017-02-11)
+v0.3.1 (2018-02-11)
 - Адаптирован для использования библиотеки SimplePlugin 3
 - Реализована поддержка Python 3.6 (Совместимость с KODI 19 и выше)
 - Исправлены выявленные ошибки

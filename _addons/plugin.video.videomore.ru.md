@@ -1,6 +1,6 @@
 ---
-layout: post
-date:   2018-04-22 00:00:00
+layout: addon
+date: 2018-04-22
 categories: video
 _id: plugin.video.videomore.ru
 title: Videomore
@@ -9,7 +9,6 @@ provider: vl.maksime
 forum: http://xbmc.ru/forum/showthread.php?t=15103
 website: https://videomore.ru
 source: https://github.com/vlmaksime/plugin.video.videomore.ru
-permalink: /video/plugin.video.videomore.ru/
 ---
 v1.1.0 (2018-04-22)
 - Дополнение переписано с нуля

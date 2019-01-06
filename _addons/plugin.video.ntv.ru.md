@@ -1,6 +1,6 @@
 ---
-layout: post
-date:   2018-04-22 00:00:00
+layout: addon
+date: 2018-04-22
 categories: video
 _id: plugin.video.ntv.ru
 title: НТВ
@@ -12,7 +12,6 @@ disclaimer: Присоединитесь к миллионам посетите�
 forum: http://xbmc.ru/forum/showthread.php?t=14937
 website: http://www.ntv.ru/
 source: https://github.com/vlmaksime/plugin.video.ntv.ru
-permalink: /video/plugin.video.ntv.ru/
 ---
 v0.2.1 (2018-02-25)
 - Учтены изменения в API ресурса

@@ -35,8 +35,8 @@ description: Репозиторий дополнений для Kodi
         {% capture download_url %}/releases/{{ addon._id }}/{{ addon._id }}-{{ addon.version }}.zip{% endcapture %}
         <div class="project-item col-md-4 col-sm-6 col-xs-12">
           <div class="well project-outer">
-            <div class="project-inner">
-              <div class="project-img bordered" style="background-image: url('{{ icon_url | absolute_url }}');"></div>
+            <div class="project-inner" align="center">
+              <img alt="icon" src="{{ icon_url | absolute_url }}" style="max-height:200px; max-width:200px" />
               <h3 class="project-headlines">{{ addon.title }}</h3>
               <div class="project-footer"> 
                 <a href="{{ addon.url | absolute_url }}" class="btn btn-info btn-raised btn-sm project-link">Описание</a>

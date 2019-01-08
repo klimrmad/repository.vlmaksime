@@ -3,7 +3,7 @@ layout: default
 title: Дополнения
 description: Репозиторий дополнений для Kodi
 ---
-{% assign sorted_addons = (site.addons | sort: 'date') | reverse %}
+{% assign sorted_addons = site.addons | sort: 'date' | reverse %}
 <article class="post">
   {% for addon in sorted_addons %}
     {% capture category_slug %}{{ addon.categories }}{% endcapture %}

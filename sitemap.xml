@@ -2,27 +2,20 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ "/" | absolute_url }}/</link>
-    <atom:link href="{{ "/sitemap.xml" | absolute_url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for addon in site.addons %}
-      <item>
-        <title>{{ addon.title | xml_escape }}</title>
-        <description>{{ addon.summary | xml_escape }}</description>
-        <pubDate>{{ addon.date | date_to_rfc822 }}</pubDate>
-        <link>{{ addon.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ addon.url | absolute_url }}</guid>
-        {% for cat in addon.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
-      </item>
-    {% endfor %}
-
-  </channel>
-</rss>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ "/" | absolute_url }}</loc>
+  </url>
+  {% for addon in site.addons %}
+  <url>
+    <loc>{{ addon.url | absolute_url }}</loc>
+  </url>
+  {% endfor %}
+  {% for page in site.pages %}
+    {% if page.layout == 'page' and page.url <> '/404.html' %}
+    <url>
+      <loc>{{ page.url | prepend: site.url }}</loc>
+    </url>
+    {% endif %}
+  {% endfor %}
+</urlset>

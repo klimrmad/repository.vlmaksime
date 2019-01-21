@@ -62,3 +62,7 @@
 	path = sources/script.module.simpleplugin3
 	url = https://github.com/romanvm/script.module.simpleplugin.git
 	branch = develop
+[submodule "sources/plugin.video.filmix"]
+	path = sources/plugin.video.filmix
+	url = https://github.com/vlmaksime/plugin.video.filmix
+	branch = master

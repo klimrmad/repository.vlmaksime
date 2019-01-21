@@ -13,7 +13,7 @@ description: >
   Смотрите в HD качестве на большом экране вашего телевизора.
 disclaimer: Самая большая в России легальная фильмотек
 forum: http://xbmc.ru/forum/showthread.php?t=15328
-website: https://www.gismeteo.ru/ 
+website: https://ivi.ru/ 
 source: https://github.com/vlmaksime/plugin.video.ivi.client
 ---
 v1.1.2 (2018-11-04)

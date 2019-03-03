@@ -1,6 +1,6 @@
 ---
 layout: addon
-date: 2018-04-22
+date: 2019-03-03
 categories: video
 _id: plugin.video.russiatv1
 title: Россия 1
@@ -15,10 +15,5 @@ forum: http://xbmc.ru/forum/showthread.php?t=14265
 website: https://russia.tv/
 source: https://github.com/vlmaksime/plugin.video.russiatv1
 ---
-v0.2.1 (2018-12-20)
+v0.2.2 (2019-03-03)
 - Учтены изменения в API ресурса
-
-0.1.5 (2018-01-09)
-- Оптимизация
-- Реализовано получение актерского состава из описания
-- В описании материала добавлена возможность просмотреть трейлер

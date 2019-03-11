@@ -513,7 +513,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="script.module.api.videomore.ru" version="1.0.2" name="API videomore.ru" provider-name="vl.maksime">
+    <addon id="script.module.api.videomore.ru" version="1.0.3" name="API videomore.ru" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
             <import addon="script.module.requests" version="2.12.4"/>
@@ -559,7 +559,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.videomore.ru" version="1.1.1" name="Videomore" provider-name="vl.maksime">
+    <addon id="plugin.video.videomore.ru" version="1.2.0" name="Videomore" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
             <import addon="script.module.simplemedia" version="1.0.5"/>
@@ -583,7 +583,7 @@
             <website>https://videomore.ru</website>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.videomore.ru</source>
-            <news>v1.1.0 (2018-04-22)[CR]- Дополнение переписано с нуля[CR]- Реализовано воспроизведение DRM видео</news>
+            <news>v1.2.0 (2019-03-11)[CR]- Адаптирован для работы с Kodi 18[CR][CR]v1.1.0 (2018-04-22)[CR]- Дополнение переписано с нуля[CR]- Реализовано воспроизведение DRM видео</news>
             <assets>
                 <icon>icon.png</icon>
             </assets>

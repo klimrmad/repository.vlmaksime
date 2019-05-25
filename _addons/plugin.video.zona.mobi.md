@@ -1,10 +1,10 @@
 ---
 layout: addon
-date: 2019-01-08
+date: 2019-05-25
 categories: video
 _id: plugin.video.zona.mobi
 title: ZONA.plus
-version: 0.1.9
+version: 0.2.0
 provider: vl.maksime
 summary: Фильмы и Сериалы онлайн
 description: Выбирайте фильмы и сериалы по жанру, году, рейтингу, популярности.
@@ -13,6 +13,9 @@ forum: http://xbmc.ru/forum/showthread.php?t=14529
 website: https://zona.mobi/
 source: https://github.com/vlmaksime/plugin.video.zona.mobi
 ---
+v0.2.0 (2019-05-25)
+- Добавлена возможность указывать адрес сайта в настройках дополнения
+
 v0.1.9 (2019-01-08)
 - Обновлен адрес сайта
 - Исправлены ошибки

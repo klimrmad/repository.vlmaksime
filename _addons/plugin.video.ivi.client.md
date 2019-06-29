@@ -1,10 +1,10 @@
 ---
 layout: addon
-date: 2018-11-04
+date: 2019-06-29
 categories: video
 _id: plugin.video.ivi.client
 title: ivi
-version: 1.1.2
+version: 1.1.3
 provider: vl.maksime
 summary: Онлайн-кинотеатр ivi
 description: >
@@ -16,6 +16,10 @@ forum: http://xbmc.ru/forum/showthread.php?t=15328
 website: https://ivi.ru/ 
 source: https://github.com/vlmaksime/plugin.video.ivi.client
 ---
+v1.1.3 (2019-06-29)
+- Реализована возможность авторизации по коду
+- Исправлены выявленные ошибки
+
 v1.1.2 (2018-11-04)
 - Для контента с Widevine CDM ограничен доступ для KODI 18+ на всех платформах
 

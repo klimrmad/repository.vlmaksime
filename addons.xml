@@ -43,10 +43,10 @@
         <source>https://github.com/romanvm/script.module.simpleplugin</source>
       </extension>
     </addon>
-    <addon id="script.module.simplemedia" version="1.0.6" name="SimpleMedia" provider-name="vl.maksime">
-        <requires>
-            <import addon="xbmc.python" version="2.19.0"/>
-            <import addon="script.module.simpleplugin3" version="3.0.0~beta6"/>
+	<addon id="script.module.simplemedia" version="1.1.0" name="SimpleMedia" provider-name="vl.maksime">
+		<requires>
+			<import addon="xbmc.python" version="2.19.0"/>
+			<import addon="script.module.simpleplugin3" version="3.0.0~beta7"/>
         </requires>
         <extension point="xbmc.python.module"/>
         <extension point="xbmc.addon.metadata">
@@ -99,30 +99,28 @@
         </assets>
       </extension>
     </addon>
-    <addon id="plugin.video.tvzavr.ru" version="0.1.7" name="TVzavr.ru" provider-name="vl.maksime">
-        <requires>
-            <import addon="xbmc.python" version="2.19.0"/>
-            <import addon="script.module.m3u8" version="0.2.10"/>
-            <import addon="script.module.requests" version="2.12.4"/>
-        </requires>
-        <extension point="xbmc.python.pluginsource">
+	<addon id="plugin.video.tvzavr.ru" version="1.0.0" name="TVZavr" provider-name="vl.maksime">
+		<requires>
+			<import addon="xbmc.python" version="2.19.0"/>
+			<import addon="script.module.requests" version="2.12.4"/>
+			<import addon="script.module.m3u8" version="0.2.10"/>
+			<import addon="script.module.simplemedia" version="1.0.6"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource">
             <provides>video</provides>
         </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary lang="en">TVzavr.ru - International online cinema, which appeared on the market in 2010.</summary>
-            <summary lang="ru">TVzavr.ru — международный интернет-кинотеатр, который появился на рынке в 2010 году.</summary>
-            <description lang="en">TVzavr.ru - International online cinema, which appeared on the market in 2010. The purpose of the project - to give every viewer the opportunity to create their own world of entertainment and leisure activities. The online collection contains the best cinema movies, series and cartoons from the Soviet film distribution tapes to the new products.</description>
-            <description lang="ru">TVzavr.ru — международный интернет-кинотеатр, который появился на рынке в 2010 году. Цель проекта – предоставить каждому зрителю возможность создать свой собственный мир развлечений и досуга. В коллекции интернет-кинотеатра собраны лучшие фильмы, сериалы и мультфильмы, от советских лент до новинок кинопроката.</description>
-            <disclaimer lang="en">Online cinema TVzavr.ru</disclaimer>
-            <disclaimer lang="ru">Онлайн-кинотеатр TVzavr.ru</disclaimer>
-            <language>ru</language>
-            <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-            <forum>http://xbmc.ru/forum/showthread.php?t=14182</forum>
-            <website>http://www.tvzavr.ru/</website>
-            <email>vl.maksime@gmail.com</email>
-            <source>https://github.com/vlmaksime/plugin.video.tvzavr.ru</source>
-            <news>v0.1.7 (2017-03-12)[CR]- Удалена поддержка дополнения 'Unified Search Lite'[CR]- Добавлена поддержка дополнения 'United Search'</news>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="ru">TVzavr.ru — международный интернет-кинотеатр, который появился на рынке в 2010 году.</summary>
+			<description lang="ru">Интернет-кинотеатр tvzavr - легальный просмотр фильмов, сериалов и мультфильмов на любой вкус в HD и Full HD качестве.</description>
+			<disclaimer lang="ru">Онлайн-кинотеатр TVzavr.ru</disclaimer>
+			<language>ru</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+			<forum>http://xbmc.ru/forum/showthread.php?t=14182</forum>
+			<website>http://www.tvzavr.ru/</website>
+			<email>vl.maksime@gmail.com</email>
+			<source>https://github.com/vlmaksime/plugin.video.tvzavr.ru</source>
+			<news>v1.0.0 (2019-07-13)[CR]- дополнение переделано на использование модуля SimpleMedia[CR]- исправлены ошибки работы с API ресурса[CR]- дополнена информация в карточке контента[CR]- реализована совместимость с python 3.6 (Kodi 19+)</news>
             <assets>
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>

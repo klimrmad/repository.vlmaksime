@@ -1,10 +1,10 @@
 ---
 layout: addon
-date: 2017-07-20
+date: 2019-07-14
 categories: video
 _id: plugin.video.video.az
 title: Video.AZ
-version: 0.1.6
+version: 0.1.7
 provider: vl.maksime
 summary: Video.AZ - Новый медийный и самый крупный, на сегодняшний день, проект в Азербайджане.
 description: >
@@ -15,6 +15,9 @@ forum: http://xbmc.ru/forum/showthread.php?t=14265
 website: http://video.az/
 source: https://github.com/vlmaksime/plugin.video.video.az
 ---
+v0.1.7 (2019-07-14)
+- Прекращена поддержка дополнения. Сервер API больше не доступен
+
 v0.1.6 (2017-07-20)
 - Переделан алгоритм удаления html тегов из текста
 - Добавил информацию о MPAA рейтинге в описании фильма

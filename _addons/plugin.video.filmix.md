@@ -1,10 +1,10 @@
 ---
 layout: addon
-date: 2019-05-30
+date: 2019-07-24
 categories: video
 _id: plugin.video.filmix
 title: Filmix
-version: 1.2.0
+version: 1.2.1
 provider: vl.maksime
 summary: Смотреть онлайн фильмы и сериалы бесплатно
 description: >
@@ -13,6 +13,11 @@ forum: http://xbmc.ru/forum/showthread.php?t=16408
 website: https://filmix.co/ 
 source: https://github.com/vlmaksime/plugin.video.filmix
 ---
+v1.2.1 (2019-07-24)
+- Исправлено получение ссылок на источник
+- Исправлена проблема с авторизацией на устройствах ATV
+- Добавлена поддержка дополнения Widget Manager (пока не найдется решение лучше)
+
 v1.2.0 (2019-05-30)
 - Добавлен вывод фильтров в списке контента. Можно отключить в настройках
 - Реализовано формирование имен для совместимости с "Add To Lib"

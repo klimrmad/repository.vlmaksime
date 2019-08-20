@@ -1,10 +1,10 @@
 ---
 layout: addon
-date: 2019-08-11
+date: 2019-08-20
 categories: video
 _id: plugin.video.filmix
 title: Filmix
-version: 1.2.4
+version: 1.2.5
 provider: vl.maksime
 summary: Смотреть онлайн фильмы и сериалы бесплатно
 description: >
@@ -13,6 +13,10 @@ forum: http://xbmc.ru/forum/showthread.php?t=16408
 website: https://filmix.co/ 
 source: https://github.com/vlmaksime/plugin.video.filmix
 ---
+v1.2.5 (2019-08-20)
+- Обновлены сертификаты
+- Исправлена работа фильтров на Kodi 16 и старше
+
 v1.2.4 (2019-08-11)
 - Для пользователей без авторизации максимальное качество установлено в 480p
 - Переделан раздел "Поиск". Добавлено контекстное меню для управления разделом

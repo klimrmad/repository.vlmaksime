@@ -1,10 +1,10 @@
 ---
 layout: addon
-date: 2019-09-15
+date: 2019-09-30
 categories: video
 _id: plugin.video.filmix
 title: Filmix
-version: 1.2.6
+version: 1.2.7
 provider: vl.maksime
 summary: Смотреть онлайн фильмы и сериалы бесплатно
 description: >
@@ -13,6 +13,9 @@ forum: http://xbmc.ru/forum/showthread.php?t=16408
 website: https://filmix.co/ 
 source: https://github.com/vlmaksime/plugin.video.filmix
 ---
+v1.2.7 (2019-09-30)
+- Сертификаты вынесены в отдельное дополнение
+
 v1.2.6 (2019-09-15)
 - Обновлены сертификаты
 

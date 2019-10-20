@@ -1,10 +1,10 @@
 ---
 layout: addon
-date: 2018-05-09
+date: 2019-10-20
 categories: video
 _id: plugin.video.tvigle.ru
 title: Tvigle
-version: 1.0.0
+version: 2.0.1
 provider: vl.maksime
 summary: Tvigle – это любимые фильмы, сериалы, советские мультфильмы, современные мультики, программы, ТВ-шоу онлайн и бесплатно.
 description: > 
@@ -15,5 +15,11 @@ forum: http://xbmc.ru/forum/showthread.php?t=15151
 website: http://www.tvigle.ru/
 source: https://github.com/vlmaksime/plugin.video.tvigle.ru
 ---
+v2.0.1 (2019-10-20)
+- Восстановлена работа дополнения с использованием нового API
+- Добавлена возможность авторизации
+- Для авторизованных пользователей реализована загрузка разделов "Избранное" и "Просмотренное"
+- Для авторизованных пользователей реализована синхронизация времени и статуса просмотра между Kodi и сайтом
+
 v1.0.0 (2018-05-09)
 - Публичный релиз

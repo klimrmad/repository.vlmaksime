@@ -102,11 +102,11 @@
     </addon>
     <addon id="plugin.video.tvzavr.ru" version="1.2.0" name="TVZavr" provider-name="vl.maksime">
         <requires>
-			<import addon="xbmc.python" version="2.19.0"/>
-			<import addon="script.module.m3u8" version="0.2.10"/>
-			<import addon="script.module.simplemedia" version="1.2.3"/>
+            <import addon="xbmc.python" version="2.19.0"/>
+            <import addon="script.module.m3u8" version="0.2.10"/>
+            <import addon="script.module.simplemedia" version="1.2.3"/>
         </requires>
-		<extension point="xbmc.service"/>
+        <extension point="xbmc.service"/>
         <extension point="xbmc.python.pluginsource">
             <provides>video</provides>
         </extension>
@@ -121,7 +121,7 @@
             <website>http://www.tvzavr.ru/</website>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.tvzavr.ru</source>
-			<news>v1.2.0 (2019-08-28)[CR]- Обновлена ссылка для работы с UnitedSearch. Для корректного поиска необходимо сбросить настройки дополнения[CR]- Реализована синхронизация времени просмотра из ресурса в Kodi[CR]- Добавлен раздел "Подборки"[CR]- Реализован вывод пометок о просмотре по данным ресурса и вывод пользовательской оценки[CR]- Мелкие исправления и оптимизация[CR][CR]v1.1.0 (2019-08-01)[CR]- Добавлена возможность авторизации по коду устройства[CR]- Обновлены логотип и фанарт[CR]- Добавлен раздел "Просмотренно". Реализовано заполнение раздела просмотренным контентом[CR]- Реализована синхронизация времени просмотра из Kodi на ресурсе[CR]- Добавлено контекстное меню для управляения разделами "Избранное", "Просмотренное", "Поиск"[CR]- Мелкие исправления и оптимизация</news>
+            <news>v1.2.0 (2019-08-28)[CR]- Обновлена ссылка для работы с UnitedSearch. Для корректного поиска необходимо сбросить настройки дополнения[CR]- Реализована синхронизация времени просмотра из ресурса в Kodi[CR]- Добавлен раздел "Подборки"[CR]- Реализован вывод пометок о просмотре по данным ресурса и вывод пользовательской оценки[CR]- Мелкие исправления и оптимизация[CR][CR]v1.1.0 (2019-08-01)[CR]- Добавлена возможность авторизации по коду устройства[CR]- Обновлены логотип и фанарт[CR]- Добавлен раздел "Просмотренно". Реализовано заполнение раздела просмотренным контентом[CR]- Реализована синхронизация времени просмотра из Kodi на ресурсе[CR]- Добавлено контекстное меню для управляения разделами "Избранное", "Просмотренное", "Поиск"[CR]- Мелкие исправления и оптимизация</news>
             <assets>
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
@@ -589,23 +589,24 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.tvigle.ru" version="1.0.0" name="Tvigle" provider-name="vl.maksime">
+    <addon id="plugin.video.tvigle.ru" version="2.0.1" name="Tvigle" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
             <import addon="script.module.future" version="0.16.0.4"/>
-            <import addon="script.module.requests" version="2.12.4"/>
-            <import addon="script.module.simplemedia" version="1.0.1"/>
+            <import addon="script.module.simplemedia" version="1.2.4"/>
+            <import addon="script.module.pyjwt" version="1.6.4"/>
         </requires>
         <extension point="xbmc.python.pluginsource">
             <provides>video</provides>
         </extension>
+        <extension point="xbmc.service"/>
         <extension point="xbmc.addon.metadata">
-            <summary lang="en_GB">Tvigle - it's your favorite movies, TV shows, soviet cartoons, modern cartoons online for free.</summary>
-            <summary lang="ru_RU">Tvigle – это любимые фильмы, сериалы, советские мультфильмы, современные мультики, программы, ТВ-шоу онлайн и бесплатно.</summary>
-            <description lang="en_GB">Several million people are already looking Tvigle online and on Smart TV. Install this plugin and watch movies, TV shows, cartoons online in HD quality.[CR]The main advantage of Tvigle - 99% of movies and TV shows free of charge.</description>
-            <description lang="ru_RU">Несколько миллионов пользователей уже смотрят Tvigle на сайте и в приложениях Smart TV. Установите это дополнение и смотрите фильмы, сериалы, мультфильмы online в HD качестве.[CR]Главное преимущество Tvigle – 99% фильмов и сериалов бесплатные.</description>
-            <disclaimer lang="en_GB">Now in your TV</disclaimer>
-            <disclaimer lang="ru_RU">Теперь в твоем телевизоре</disclaimer>
+            <summary lang="en">Tvigle - it's your favorite movies, TV shows, soviet cartoons, modern cartoons online for free.</summary>
+            <summary lang="ru">Tvigle – это любимые фильмы, сериалы, советские мультфильмы, современные мультики, программы, ТВ-шоу онлайн и бесплатно.</summary>
+            <description lang="en">Several million people are already looking Tvigle online and on Smart TV. Install this plugin and watch movies, TV shows, cartoons online in HD quality.[CR]The main advantage of Tvigle - 99% of movies and TV shows free of charge.</description>
+            <description lang="ru">Несколько миллионов пользователей уже смотрят Tvigle на сайте и в приложениях Smart TV. Установите это дополнение и смотрите фильмы, сериалы, мультфильмы online в HD качестве.[CR]Главное преимущество Tvigle – 99% фильмов и сериалов бесплатные.</description>
+            <disclaimer lang="en">Now in your TV</disclaimer>
+            <disclaimer lang="ru">Теперь в твоем телевизоре</disclaimer>
             <language>ru</language>
             <platform>all</platform>
             <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
@@ -613,10 +614,13 @@
             <website>http://www.tvigle.ru/</website>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.tvigle.ru</source>
-            <news>v1.0.0 (2018-05-09)[CR]- Публичный релиз</news>
+            <news>v2.0.1 (2019-10-20)[CR]- Восстановлена работа дополнения с использованием нового API[CR]- Добавлена возможность авторизации[CR]- Для авторизованных пользователей реализована загрузка разделов "Избранное" и "Просмотренное"[CR]- Для авторизованных пользователей реализована синхронизация времени и статуса просмотра между Kodi и сайтом</news>
             <assets>
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
+                <screenshot>media\screenshot-01.jpg</screenshot>
+                <screenshot>media\screenshot-02.jpg</screenshot>
+                <screenshot>media\screenshot-03.jpg</screenshot>
             </assets>
         </extension>
     </addon>
@@ -654,7 +658,7 @@
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
             <import addon="script.module.simplemedia" version="1.2.2"/>
-			<import addon="script.module.filmix.cert" version="0.9.1"/>
+            <import addon="script.module.filmix.cert" version="0.9.1"/>
         </requires>
         <extension point="xbmc.python.pluginsource">
             <provides>video</provides>
@@ -676,17 +680,31 @@
             </assets>
         </extension>
     </addon>
-	<addon id="script.module.filmix.cert" version="0.9.1" name="Filmix certificates" provider-name="vl.maksime">
-		<requires>
-			<import addon="xbmc.python" version="2.19.0"/>
-		</requires>
-		<extension point="xbmc.python.module" />
-		<extension point="xbmc.addon.metadata">
-			<platform>all</platform>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-			<forum>http://xbmc.ru/forum/showthread.php?t=16408</forum>
-			<email>vl.maksime@gmail.com</email>
-			<source>https://github.com/vlmaksime/plugin.video.filmix</source>
-		</extension>
-	</addon>
+    <addon id="script.module.filmix.cert" version="0.9.1" name="Filmix certificates" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="2.19.0"/>
+        </requires>
+        <extension point="xbmc.python.module" />
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=16408</forum>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/plugin.video.filmix</source>
+        </extension>
+    </addon>
+    <addon id="script.module.pyjwt" name="pyjwt" provider-name="jpadilla (hello@jpadilla.com)" version="1.6.4">
+        <requires>
+            <import addon="xbmc.python" version="2.19.0" />
+        </requires>
+        <extension point="xbmc.python.module" />
+        <extension point="xbmc.addon.metadata">
+            <description lang="en_GB">pyjwt module</description>
+            <summary lang="en_GB">pyjwt module</summary>
+            <license>MIT</license>
+            <platform>all</platform>
+            <website>https://pyjwt.readthedocs.io</website>
+            <source>https://github.com/jpadilla/pyjwt</source>
+        </extension>
+    </addon>
 </addons>

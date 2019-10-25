@@ -43,7 +43,7 @@
         <source>https://github.com/romanvm/script.module.simpleplugin</source>
       </extension>
     </addon>
-    <addon id="script.module.simplemedia" version="1.2.4" name="SimpleMedia" provider-name="vl.maksime">
+    <addon id="script.module.simplemedia" version="1.2.5" name="SimpleMedia" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
             <import addon="script.module.simpleplugin3" version="3.0.0~beta9"/>
@@ -122,40 +122,6 @@
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.tvzavr.ru</source>
             <news>v1.2.0 (2019-08-28)[CR]- Обновлена ссылка для работы с UnitedSearch. Для корректного поиска необходимо сбросить настройки дополнения[CR]- Реализована синхронизация времени просмотра из ресурса в Kodi[CR]- Добавлен раздел "Подборки"[CR]- Реализован вывод пометок о просмотре по данным ресурса и вывод пользовательской оценки[CR]- Мелкие исправления и оптимизация[CR][CR]v1.1.0 (2019-08-01)[CR]- Добавлена возможность авторизации по коду устройства[CR]- Обновлены логотип и фанарт[CR]- Добавлен раздел "Просмотренно". Реализовано заполнение раздела просмотренным контентом[CR]- Реализована синхронизация времени просмотра из Kodi на ресурсе[CR]- Добавлено контекстное меню для управляения разделами "Избранное", "Просмотренное", "Поиск"[CR]- Мелкие исправления и оптимизация</news>
-            <assets>
-                <icon>icon.png</icon>
-                <fanart>fanart.jpg</fanart>
-                <screenshot>media\screenshot-01.jpg</screenshot>
-                <screenshot>media\screenshot-02.jpg</screenshot>
-                <screenshot>media\screenshot-03.jpg</screenshot>
-            </assets>
-        </extension>
-    </addon>
-    <addon id="plugin.video.video.az" version="0.1.7" name="Video.AZ" provider-name="vl.maksime">
-        <requires>
-            <import addon="xbmc.python" version="2.19.0"/>
-            <import addon="script.module.requests" version="2.12.4"/>
-            <import addon="script.module.simpleplugin" version="2.2.0"/>
-        </requires>
-        <extension point="xbmc.python.pluginsource">
-            <provides>video</provides>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary lang="en">Video.AZ - New media project and the largest, by far, the project in Azerbaijan.</summary>
-            <summary lang="ru">Video.AZ - Новый медийный и самый крупный, на сегодняшний день, проект в Азербайджане.</summary>
-            <description lang="en">Video.AZ - New media project and the largest, by far, the project in Azerbaijan.</description>
-            <description lang="ru">Video.AZ - Новый медийный и самый крупный, на сегодняшний день, проект в Азербайджане.[CR]Представляет бесплатный сервис для размещения и просмотра видео. Самые новые тенденции рынка и новинки всегда доступны на сайте Video.AZ.[CR]Просмотр коротких видео роликов, клипов, сериалов, мультфильмов, футбольных матчей и кинофильмов как азербайджанских, так и зарубежных.</description>
-            <disclaimer lang="en">Video.AZ — Our Name is Your Brand</disclaimer>
-            <disclaimer lang="ru">Video.AZ - Лучший Азербайджанский Видео Сервис</disclaimer>
-            <language>ru az en tr</language>
-            <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-            <forum>http://xbmc.ru/forum/showthread.php?t=14265</forum>
-            <website>http://video.az/</website>
-            <email>vl.maksime@gmail.com</email>
-            <source>https://github.com/vlmaksime/plugin.video.video.az</source>
-            <news>v0.1.7 (2019-07-14)[CR]- Прекращена поддержка дополнения. Сервер API больше не доступен[CR][CR]v0.1.6 (2017-07-20)[CR]- Переделан алгоритм удаления html тегов из текста[CR]- Добавил информацию о MPAA рейтинге в описании фильма</news>
-            <broken>Сервер API больше не доступен</broken>
             <assets>
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>

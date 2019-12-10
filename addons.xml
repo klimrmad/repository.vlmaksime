@@ -646,7 +646,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="script.module.filmix.cert" version="0.9.1" name="Filmix certificates" provider-name="vl.maksime">
+    <addon id="script.module.filmix.cert" version="0.9.3" name="Filmix certificates" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
         </requires>
